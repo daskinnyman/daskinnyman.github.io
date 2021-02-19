@@ -4,7 +4,7 @@ import "../sass/_main.scss";
 // styles
 const pageStyles = {
   color: "#232129",
-  padding: "96px",
+  paddingTop: "96px",
 };
 const headingStyles = {
   marginTop: 0,
