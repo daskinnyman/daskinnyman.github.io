@@ -28,7 +28,7 @@ const projects = [
   },
 ];
 
-const ProjectList = () => {
+const ProjectList = ({projects}) => {
   const renderList = () => {
     return projects.map((project, idx) => (
       <ProjectItem key={idx} {...project} />
