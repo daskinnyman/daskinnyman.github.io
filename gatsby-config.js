@@ -21,7 +21,6 @@ module.exports = {
         icon: "src/images/icon.png",
       },
     },
-    "gatsby-transformer-remark",
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
     {
@@ -46,6 +45,7 @@ module.exports = {
         name: "components",
         path: "./src/components/",
       },
+      __key: "components",
     },
     {
       resolve: "gatsby-source-filesystem",
@@ -55,5 +55,14 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "sass",
+        path: "./src/markdowns/",
+      },
+      __key: "markdowns",
+    },
+    "gatsby-transformer-remark",
   ],
 };
