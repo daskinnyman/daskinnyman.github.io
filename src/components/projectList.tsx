@@ -38,10 +38,10 @@ const ProjectList = ({projects}) => {
   return (
     <div className="Work px-0 px-md-5">
       <div className="row">
-        <div className="col-md-10">
-          <h1 className="mb-5">Projects</h1>
+        <div className="col-8 col-md-10">
+          <h1 className="mb-md-5">Projects</h1>
         </div>
-        <div className="col-md-2 d-flex align-items-center justify-content-end">
+        <div className="col-4 col-md-2 d-flex align-items-center justify-content-end">
           <button className="btn btn-secondary">filters</button>
         </div>
       </div>
