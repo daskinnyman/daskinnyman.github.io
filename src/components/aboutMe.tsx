@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 const AboutMe = () => {
   return (
     <article className="About px-0 px-md-5">
-      <Fade bottom>
+      <Fade top>
         <div>
           <h1>About me</h1>
           <pre>
