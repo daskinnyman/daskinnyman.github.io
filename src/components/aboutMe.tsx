@@ -2,7 +2,7 @@ import * as React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="About px-5">
+    <div className="About px-0 px-md-5">
       <h1>About me</h1>
       <pre>
         Hi, 我是 Alex! <br />

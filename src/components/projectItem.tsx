@@ -6,7 +6,7 @@ const ProjectItem = ({ node }) => {
   const { skill, slug, name, date } = node.frontmatter;
 
   return (
-    <div className="col-4 mb-3">
+    <div className="col-12 col-md-4 mb-3">
       <Link to={slug}>
         <div className="card">
           <img

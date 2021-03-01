@@ -6,7 +6,7 @@ export default function Layout({ children }) {
     <div className="container-fluid">
       <div className="row">
         <SideMenu />
-        <main className="col-9 offset-3">{children}</main>
+        <main className="col-12 col-md-9 offset-md-3">{children}</main>
       </div>
     </div>
   );

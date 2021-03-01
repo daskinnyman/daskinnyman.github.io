@@ -1,24 +1,49 @@
-.SideMenu {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
+@import "../vendors/boostrap";
 
+.SideMenu {
   &--header {
-    padding-top: 20vh;
+    padding-top: 3rem;
 
     &--Avatar {
-      width: 14vw;
-      height: 14vw;
+      width: 35vw;
+      height: 35vw;
       border-radius: 50%;
       background-color: #e7e7e7;
+
+      @include media-breakpoint-up(md) {
+        width: 14vw;
+        height: 14vw;
+      }
     }
 
     &--Avatar img {
       object-fit: contain;
     }
+
+    @include media-breakpoint-up(md) {
+      padding-top: 20vh;
+    }
+  }
+
+  > ul {
+    width: 100%;
+    display: flex;
+
+    > li {
+      flex: 1;
+    }
+
+    @include media-breakpoint-up(md) {
+      display: block;
+    }
   }
 }
 
-
-
+aside.SideMenu {
+  @include media-breakpoint-up(md) {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+}

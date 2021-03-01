@@ -1,0 +1,19 @@
+@import "../vendors/boostrap";
+
+.About {
+  color: #232129;
+  @include media-breakpoint-up(md) {
+    padding-top: 25vh;
+    min-height: 100vh;
+  }
+}
+
+.Work {
+  padding-top: 5vh;
+  min-height: 100vh;
+
+  @include media-breakpoint-up(md) {
+    padding-top: 5vh;
+    min-height: 100vh;
+  }
+}
