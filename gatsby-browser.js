@@ -25,5 +25,5 @@ exports.wrapPageElement = ({ element }) => {
 exports.onInitialClientRender = () => {
   setTimeout(() => {
     document.getElementById("overlay").style.display = "none";
-  }, 800);
+  }, 500);
 };

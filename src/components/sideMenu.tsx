@@ -1,7 +1,12 @@
 import React from "react";
 import logo from "../images/avatar.png";
+import { TabEnum } from "./layout";
 
-export default function SideMenu() {
+type SideMenuProps = {
+  onTabClick: (tabName: keyof typeof TabEnum) => void;
+};
+
+export const SideMenu: React.FC<SideMenuProps> = ({ onTabClick }) => {
   return (
     <aside className="col-12 col-md-3  SideMenu d-flex flex-column align-items-center align-items-md-end">
       <div className="SideMenu--header">
@@ -11,9 +16,19 @@ export default function SideMenu() {
         <h6 className="text-center  text-md-right">Alex</h6>
       </div>
       <ul className="list-unstyled ml-2 mt-2">
-        <li className="mb-2 text-center text-md-right">About me</li>
-        <li className="mb-2 text-center  text-md-right">Projects</li>
+        <li
+          className="mb-2 text-center text-md-right"
+          onClick={() => onTabClick("ABOUT")}
+        >
+          About me
+        </li>
+        <li
+          className="mb-2 text-center  text-md-right"
+          onClick={() => onTabClick("PROJECT")}
+        >
+          Projects
+        </li>
       </ul>
     </aside>
   );
-}
+};

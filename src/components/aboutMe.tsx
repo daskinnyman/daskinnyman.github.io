@@ -1,9 +1,12 @@
 import * as React from "react";
 import Fade from "react-reveal/Fade";
+import { RefContext } from "./layout";
 
 const AboutMe = () => {
+  const refContext = React.useContext(RefContext);
+
   return (
-    <article className="About px-0 px-md-5">
+    <article ref={refContext.ABOUT} className="About px-0 px-md-5">
       <Fade top>
         <div>
           <h1>About me</h1>
