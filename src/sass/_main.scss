@@ -1,12 +1,12 @@
 @import "./vendors/boostrap";
-@import "./utilities/mixin";
+
 @import "./themes/variables";
 @import "./base/base";
 @import "./base/typographic";
+@import "./utilities/mixin";
 
 @import "./layouts/layout";
 
 @import "./components/sideMenu";
-
 
 @import "./pages/_index";

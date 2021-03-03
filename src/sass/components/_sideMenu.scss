@@ -1,5 +1,3 @@
-@import "../vendors/boostrap";
-
 aside.SideMenu {
   @include media-breakpoint-up(md) {
     position: fixed !important;
@@ -40,6 +38,11 @@ aside.SideMenu {
 
     > li {
       flex: 1;
+
+      &:hover {
+        color: #da723c;
+        transition: all .5s ease-in;
+      }
     }
 
     @include media-breakpoint-up(md) {

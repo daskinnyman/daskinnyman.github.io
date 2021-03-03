@@ -22,8 +22,8 @@ export default function Layout({ children }) {
   return (
     <div className="container-fluid layout">
       <div className="row">
-        <SideMenu onTabClick={onTabClick} />
         <RefContext.Provider value={tabRefs}>
+          <SideMenu onTabClick={onTabClick} />
           <main className="col-12 col-md-9 offset-md-3">{children}</main>
         </RefContext.Provider>
       </div>
