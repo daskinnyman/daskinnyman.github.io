@@ -1,3 +1,8 @@
+%MenuItem {
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+}
+
 aside.SideMenu {
   @include media-breakpoint-up(md) {
     position: fixed !important;
@@ -10,7 +15,6 @@ aside.SideMenu {
 .SideMenu {
   &--header {
     padding-top: 3rem;
-
     &--Avatar {
       width: 35vw;
       height: 35vw;
@@ -27,6 +31,10 @@ aside.SideMenu {
       object-fit: contain;
     }
 
+    h6 {
+      @extend %MenuItem;
+    }
+
     @include media-breakpoint-up(md) {
       padding-top: 20vh;
     }
@@ -38,10 +46,10 @@ aside.SideMenu {
 
     > li {
       flex: 1;
-
+      @extend %MenuItem;
       &:hover {
         color: #da723c;
-        transition: all .5s ease-in;
+        transition: all 0.5s ease-in;
       }
     }
 
