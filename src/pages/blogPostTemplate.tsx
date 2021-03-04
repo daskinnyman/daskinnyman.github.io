@@ -4,13 +4,16 @@ import Layout from "../components/layout";
 
 import { graphql } from "gatsby";
 
-const BlogPostTemplate = ({data}) => {
+const BlogPostTemplate = ({ data }) => {
   const { markdownRemark } = data;
-  const { frontmatter, html } = markdownRemark
+  const { frontmatter, html } = markdownRemark;
+  console.log(html);
   return (
     <Layout>
-        <h1>{frontmatter.title}</h1>
-        <h2>{frontmatter.date}</h2>
+      <h1>{frontmatter.name}</h1>
+      <h2>{frontmatter.skill}</h2>
+      <h2>{frontmatter.linkUrl}</h2>
+      <section dangerouslySetInnerHTML={{ __html: html }} />
     </Layout>
   );
 };
@@ -26,6 +29,7 @@ export const pageQuery = graphql`
         slug
         name
         skill
+        linkUrl
       }
     }
   }

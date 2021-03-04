@@ -5,7 +5,7 @@ const ProjectItem = ({ node }) => {
   const { skill, slug, name, date } = node.frontmatter;
 
   const renderSkills = () => {
-    return skill.split(" ").map((skill, idx: number) => (
+    return skill.split(",").map((skill, idx: number) => (
       <span key={idx} className="badge badge-info mr-1">
         {skill}
       </span>
