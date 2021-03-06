@@ -1,0 +1,7 @@
+.cache
+.github
+node_modules
+public
+README.md 
+package.json
+package-lock.json
