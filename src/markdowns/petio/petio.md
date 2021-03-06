@@ -1,6 +1,6 @@
 ---
 slug: "/blog/my-third-post"
-date: "2017"
+date: "2019"
 name: "Woof"
 skill: "React-Native,Firebase"
 linkUrl: "yeee"
