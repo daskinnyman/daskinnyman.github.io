@@ -1,6 +1,7 @@
 import React, { createContext, useRef } from "react";
 import { SideMenu } from "./sideMenu";
 import "../sass/_main.scss";
+import { navigate } from "gatsby";
 
 export enum TabEnum {
   ABOUT = "ABOUT",
@@ -16,6 +17,10 @@ export default function Layout({ children }) {
   };
 
   const onTabClick = (tabName: keyof typeof TabEnum) => {
+    if (!tabRefs[tabName]?.current) {
+      navigate("");
+      return;
+    }
     tabRefs[tabName]?.current.scrollIntoView();
   };
 

@@ -1,0 +1,12 @@
+.Works {
+  @include media-breakpoint-up(md) {
+    padding-top: 15vh;
+    min-height: 100vh;
+  }
+
+  h1 {
+    @extend %ArticleTitle;
+  }
+
+  background-color: $LayoutBgColor;
+}

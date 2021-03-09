@@ -1,0 +1,17 @@
+.btn {
+  &.btn-collapse {
+    padding: 4px 12px;
+    color: $ArticleHeadingColor;
+    border-radius: 8px;
+    background-color: $LayoutBgColor--dark;
+    font-size: 14px;
+    letter-spacing: 0.1rem;
+    border-style: none;
+
+    &:hover {
+      text-decoration: none;
+      background-color: $LayoutBgColor--darker;
+      transition: all 0.5s ease-in-out;
+    }
+  }
+}
