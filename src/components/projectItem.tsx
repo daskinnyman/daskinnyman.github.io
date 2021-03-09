@@ -16,7 +16,7 @@ const ProjectItem = ({ node }) => {
     <div className="col-12 col-md-4 mb-3">
       <Link className="text-decoration-none" to={slug}>
         <div className="card">
-          <img src={thumb} className="card-img-top" />
+          <img src={thumb} className="card-img-top" height="200" width="100%" />
           <div className="card-body">
             <h5 className="card-title">{name}</h5>
             {renderSkills()}
