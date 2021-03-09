@@ -3,7 +3,7 @@ slug: "/work/eslite"
 date: "2017"
 name: "2018 eslite XMAS Card"
 skill: "React,Fabricjs"
-linkUrl: "yeee"
+linkUrl: ""
 thumb: https://res.cloudinary.com/daskinnyman/image/upload/v1540030512/eslite.png
 ---
 2018 eslite XMAS Card是我在學生時期一起和同學與誠品書店合作的專案，

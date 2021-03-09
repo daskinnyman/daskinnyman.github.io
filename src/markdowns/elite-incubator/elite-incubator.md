@@ -3,7 +3,7 @@ slug: "/work/elite-incubator"
 date: "2019"
 name: "菁英人才孵化器"
 skill: "Vue,Angular,Ionic,Firebase,Cloud Functions"
-linkUrl: "yeee"
+linkUrl: ""
 thumb: https://res.cloudinary.com/daskinnyman/image/upload/c_scale,w_376/v1540028311/app-login_gxgypt.png
 ---
 
