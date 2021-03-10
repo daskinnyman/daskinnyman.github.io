@@ -22,13 +22,12 @@ export const pageQuery = graphql`
         description
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___order], order: DESC }) {
       edges {
         node {
           excerpt
           frontmatter {
             slug
-            date(formatString: "MMMM DD, YYYY")
             name
             skill
             thumb

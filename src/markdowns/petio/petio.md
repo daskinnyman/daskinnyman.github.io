@@ -1,6 +1,6 @@
 ---
 slug: "/work/Woof"
-date: "2019"
+order: 3
 name: "Woof"
 skill: "React-Native,Firebase"
 linkUrl: ""

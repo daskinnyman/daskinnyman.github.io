@@ -1,6 +1,6 @@
 ---
 slug: "/work/ktbPib"
-date: "2017"
+order: 2
 name: "KTB PIB"
 skill: "Angular,UI/UX,Ionic"
 linkUrl: "https://apps.apple.com/tw/app/%E4%BA%AC%E5%9F%8E%E8%A1%8C%E5%8B%95%E9%8A%80%E8%A1%8C/id1152332043"

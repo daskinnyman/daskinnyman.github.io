@@ -7,10 +7,10 @@ import { graphql, Link } from "gatsby";
 const BlogPostTemplate = ({ data }) => {
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
-  const { skill, slug, name, thumb, linkUrl, date } = frontmatter;
+  const { skill, name ,linkUrl } = frontmatter;
 
   const renderSkills = () => {
-    return frontmatter.skill.split(",").map((skill, idx: number) => (
+    return skill.split(",").map((skill, idx: number) => (
       <span key={idx} className="badge badge-info mr-1">
         {skill}
       </span>
@@ -57,8 +57,6 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
-        slug
         name
         skill
         linkUrl

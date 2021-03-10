@@ -1,6 +1,6 @@
 ---
 slug: "/work/elite-incubator"
-date: "2019"
+order: 4
 name: "菁英人才孵化器"
 skill: "Vue,Angular,Ionic,Firebase,Cloud Functions"
 linkUrl: ""
