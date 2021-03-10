@@ -24,45 +24,27 @@ module.exports = {
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: "images",
-        path: "./src/images/",
+        name: `src`,
+        path: `${__dirname}/src/`,
       },
-      __key: "images",
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-transformer-remark`,
       options: {
-        name: "sass",
-        path: "./src/sass/",
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 590,
+              linkImagesToOriginal: true,
+              sizeByPixelDensity: true,
+              showCaptions: true,
+            },
+          },
+        ],
       },
-      __key: "sass",
     },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "components",
-        path: "./src/components/",
-      },
-      __key: "components",
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "pages",
-        path: "./src/pages/",
-      },
-      __key: "pages",
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "sass",
-        path: "./src/markdowns/",
-      },
-      __key: "markdowns",
-    },
-    "gatsby-transformer-remark",
   ],
 };
