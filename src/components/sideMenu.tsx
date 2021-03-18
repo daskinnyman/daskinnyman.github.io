@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/avatar.png";
+import logo from "../images/avatar.jpeg";
 import { TabEnum } from "./layout";
 
 type SideMenuProps = {
