@@ -13,7 +13,7 @@ const AboutMe = () => {
           <pre>
             Hi, 我是 Alex! <br />
             我擁有三年開發經驗， <br className="d-lg-none" />
-            目前於HP擔任Software engineer，
+            目前於XREX擔任Front-end engineer，
             <br />
             負責網站的開發及UI/UX設計，
             <br className="d-lg-none" />
