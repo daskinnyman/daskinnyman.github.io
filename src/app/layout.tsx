@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Noto_Sans_TC, JetBrains_Mono } from "next/font/google";
+import { ScrollReset } from "@/components/scroll-reset";
 import "./globals.css";
 
 const inter = Inter({
@@ -41,7 +42,10 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${notoSansTC.variable} ${jetbrainsMono.variable}`}
     >
-      <body className="bg-black text-white antialiased">{children}</body>
+      <body className="bg-black text-white antialiased">
+        <ScrollReset />
+        {children}
+      </body>
     </html>
   );
 }
