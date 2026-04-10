@@ -24,11 +24,7 @@
 
 html,
 body {
-  background-color: #000000;
-  color: #ffffff;
   font-family: var(--font-sans);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
 }
 

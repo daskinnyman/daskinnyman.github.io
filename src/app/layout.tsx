@@ -13,6 +13,7 @@ const notoSansTC = Noto_Sans_TC({
   weight: ["400", "500", "700"],
   variable: "--font-noto-sans-tc",
   display: "swap",
+  preload: false,
 });
 
 const jetbrainsMono = JetBrains_Mono({

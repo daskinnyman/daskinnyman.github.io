@@ -1,3 +1,13 @@
+export type TechEntry = {
+  name: string;
+  description: string;
+};
+
+export type Screenshot = {
+  src: string;
+  caption: string;
+};
+
 export type Project = {
   slug: string;
   name: string;
@@ -8,8 +18,8 @@ export type Project = {
   thumbGradient: [string, string]; // from, to for background gradient
   intro: string;
   responsibilities: string[];
-  techUsed: { name: string; description: string }[];
-  screenshots: { src: string; caption: string }[];
+  techUsed: TechEntry[];
+  screenshots: Screenshot[];
 };
 
 export const projects: Project[] = [
@@ -138,7 +148,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "Woof",
+    slug: "woof",
     name: "Woof",
     order: 3,
     skills: ["React Native", "Firebase"],
@@ -172,7 +182,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "ktbPib",
+    slug: "ktb-pib",
     name: "KTB PIB",
     order: 2,
     skills: ["Angular", "UI/UX", "Ionic"],
