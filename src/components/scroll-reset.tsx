@@ -14,7 +14,10 @@ export function ScrollReset() {
     if ("scrollRestoration" in window.history) {
       window.history.scrollRestoration = "manual";
     }
-    window.scrollTo(0, 0);
+    // Use instant (not smooth) so we don't fly through all whileInView
+    // animations on reload. The global `scroll-behavior: smooth` would
+    // otherwise animate this scroll over several hundred ms.
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
   }, []);
 
   return null;
