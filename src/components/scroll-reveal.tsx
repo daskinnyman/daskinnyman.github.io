@@ -3,16 +3,18 @@
 import { motion, type Variants } from "framer-motion";
 import type { ReactNode } from "react";
 
+type Direction = "up" | "left" | "right" | "none";
+
 type ScrollRevealProps = {
   children: ReactNode;
   delay?: number;
-  direction?: "up" | "left" | "right" | "none";
+  direction?: Direction;
   className?: string;
   amount?: number;
   duration?: number;
 };
 
-const variantsByDirection: Record<string, Variants> = {
+const variantsByDirection: Record<Direction, Variants> = {
   up: {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0 },

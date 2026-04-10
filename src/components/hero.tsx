@@ -55,7 +55,10 @@ export function Hero() {
         </div>
       </motion.div>
 
-      <div className="scroll-indicator absolute bottom-10 left-1/2 -translate-x-1/2 text-[11px] uppercase tracking-[0.2em] text-white/30">
+      <div
+        aria-hidden="true"
+        className="scroll-indicator absolute bottom-10 left-1/2 -translate-x-1/2 text-[11px] uppercase tracking-[0.2em] text-white/30"
+      >
         Scroll to explore ↓
       </div>
     </section>

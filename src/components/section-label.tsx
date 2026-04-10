@@ -1,5 +1,7 @@
+import type { ReactNode } from "react";
+
 type SectionLabelProps = {
-  children: React.ReactNode;
+  children: ReactNode;
 };
 
 export function SectionLabel({ children }: SectionLabelProps) {
