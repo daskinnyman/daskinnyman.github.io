@@ -24,9 +24,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Alex Chen — Front-end Engineer",
+  title: "Alex Chen — Senior Full-Stack Engineer",
   description:
-    "Alex Chen's portfolio. Front-end engineer building polished web experiences with code and design.",
+    "Alex Chen's portfolio. Senior full-stack engineer with 6+ years of experience building scalable systems, microservices, and AI-powered products.",
   icons: {
     icon: "/icon.png",
   },

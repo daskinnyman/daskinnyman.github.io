@@ -30,14 +30,14 @@ export function About() {
             </ScrollReveal>
             <ScrollReveal delay={0.1}>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold tracking-[-0.03em] leading-[1.15] mb-6">
-                Engineer who designs.
+                Full-stack engineer.
                 <br />
-                Designer who codes.
+                AI systems builder.
               </h2>
             </ScrollReveal>
             <ScrollReveal delay={0.2}>
               <p className="text-base md:text-lg text-white/50 leading-relaxed max-w-2xl">
-                Three years building web and mobile products. Currently a front-end engineer at XREX, where I combine engineering and UI/UX design to build thoughtful, polished experiences. Outside of work, I use side projects to push my craft further.
+                6+ years of cross-domain experience across frontend, backend, and AI. Currently a Senior Software Engineer at Mammoth Cyber (US), where I lead large-scale migrations, design microservices architecture, and build AI browser automation systems. I embrace AI-native development workflows and care deeply about performance, type safety, and maintainability.
               </p>
             </ScrollReveal>
           </div>
