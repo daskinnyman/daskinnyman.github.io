@@ -8,7 +8,7 @@ export function About() {
   return (
     <section
       id="about"
-      className="section-full relative bg-[#0a0a0a] px-6 md:px-12 py-20"
+      className="section-full relative bg-bg-alt px-6 md:px-12 py-20"
     >
       <div className="max-w-5xl mx-auto w-full">
         <div className="flex flex-col md:flex-row gap-10 md:gap-16 items-center md:items-start">
@@ -30,14 +30,14 @@ export function About() {
             </ScrollReveal>
             <ScrollReveal delay={0.1}>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold tracking-[-0.03em] leading-[1.15] mb-6">
-                Full-stack engineer.
+                Senior backend engineer.
                 <br />
-                AI systems builder.
+                Fintech systems builder.
               </h2>
             </ScrollReveal>
             <ScrollReveal delay={0.2}>
               <p className="text-base md:text-lg text-white/50 leading-relaxed max-w-2xl">
-                6+ years of cross-domain experience across frontend, backend, and AI. Currently a Senior Software Engineer at Mammoth Cyber (US), where I lead large-scale migrations, design microservices architecture, and build AI browser automation systems. I embrace AI-native development workflows and care deeply about performance, type safety, and maintainability.
+                Senior Backend Engineer with 9 years of experience specializing in Node.js (Nest.js / Express) and PostgreSQL. Proven expert in system modernization, having spearheaded 150+ API migrations that delivered a 33% performance boost and supported 400% DAU growth. Deeply versed in the Fintech sector, I possess a strong track record in building KYC / AML systems and OAuth2 / JWT services while ensuring absolute financial data integrity. A proactive self-starter with an enterprise foundation from Microsoft and Trend Micro, I leverage observability (Sentry / CloudWatch) to independently resolve production issues and drive engineering excellence through type-safety (Zod) and automated testing.
               </p>
             </ScrollReveal>
           </div>

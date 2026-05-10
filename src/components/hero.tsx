@@ -37,20 +37,20 @@ export function Hero() {
         className="relative z-10 max-w-3xl"
       >
         <div className="text-[11px] font-medium uppercase tracking-[0.25em] text-white/40 mb-6 font-mono">
-          Senior Full-Stack Engineer
+          Senior Backend Engineer
         </div>
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-[-0.04em] leading-[1.05] mb-6">
           Alex Chen
         </h1>
         <p className="text-lg md:text-xl text-white/50 max-w-xl mx-auto leading-relaxed tracking-[-0.01em]">
-          Building scalable full-stack systems and AI-powered products. Currently at Mammoth Cyber.
+          Specializing in Node.js, PostgreSQL, system modernization, and Fintech backend systems.
         </p>
         <div className="mt-10">
           <a
-            href="#projects"
+            href="#experience"
             className="inline-flex items-center px-6 py-3 bg-white text-black rounded-lg text-sm font-medium hover:bg-white/90 transition-colors"
           >
-            View Projects
+            View Experience
           </a>
         </div>
       </motion.div>
