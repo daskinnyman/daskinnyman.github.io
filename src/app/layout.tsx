@@ -28,7 +28,8 @@ export const metadata: Metadata = {
   description:
     "Alex Chen's portfolio. Senior Backend Engineer with 9 years of experience specializing in Node.js, PostgreSQL, Fintech systems, and system modernization.",
   icons: {
-    icon: "/icon.png",
+    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+    apple: "/apple-touch-icon.png",
   },
 };
 

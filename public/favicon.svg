@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Alex Chen">
+  <title>Alex Chen</title>
+  <rect width="32" height="32" rx="7" fill="#000000"/>
+  <rect
+    x="2"
+    y="2"
+    width="28"
+    height="28"
+    rx="5"
+    fill="none"
+    stroke="#0a72ef"
+    stroke-width="2"
+  />
+  <text
+    x="16"
+    y="17.5"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="13"
+    font-weight="700"
+    letter-spacing="-0.08em"
+    fill="#ffffff"
+  >
+    A<tspan fill="#0a72ef">C</tspan>
+  </text>
+</svg>
